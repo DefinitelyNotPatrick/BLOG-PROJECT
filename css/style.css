@@ -15,9 +15,62 @@ body {
 }
 
 .card {
+  position: relative;
   background-color: hsl(0, 0%, 100%);
-  width: 280px;
-  height: 380px;
-  border-radius: 18px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.795);
+  width: 28em;
+  height: 38em;
+  border-radius: 1.8rem;
+  box-shadow: 8px 8px rgba(0, 0, 0, 0.911);
+  border: 1px solid black;
+  padding: 1rem;
+}
+.card__img {
+  position: relative;
+  width: 100%;
+  border-radius: 15px;
+}
+.card__tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7em;
+  height: 2.5em;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 15px;
+  background-color: hsl(47, 88%, 63%);
+}
+.card__tag p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.card__text-published {
+  font-size: 1.2em;
+  margin: 0.8em 0;
+  color: hsl(0, 0%, 42%);
+}
+.card__text-title {
+  font-weight: bold;
+}
+.card__text-description {
+  margin-top: 0.5em;
+  font-size: 12px;
+}
+.card__author {
+  position: relative;
+  padding-top: 1em;
+  width: 100%;
+  height: 40px;
+}
+.card__author-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+.card__author-text {
+  position: absolute;
+  display: inline;
+  top: 50%;
+  font-size: 12px;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
