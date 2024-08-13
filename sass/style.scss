@@ -54,6 +54,11 @@ body{
 
     &__text-title{
         font-weight: bold;
+        transition: color .3s;
+        &:hover{
+            color: hsl(47, 88%, 63%);
+            cursor: pointer;
+        }
     }
 
     &__text-description{

@@ -51,6 +51,11 @@ body {
 }
 .card__text-title {
   font-weight: bold;
+  transition: color 0.3s;
+}
+.card__text-title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
 }
 .card__text-description {
   margin-top: 0.5em;
